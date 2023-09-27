@@ -1,0 +1,760 @@
+@font-face {
+  font-family: "Lato900";
+  src: url("./font/Lato-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Lato700";
+  src: url("./font/Lato-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Lato400";
+  src: url("./font/Lato-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Lato300";
+  src: url("./font/Lato-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  background: #fff;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  gap: 860px;
+  height: 75px;
+  background: #222222;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 230px;
+  padding-bottom: 19px;
+  gap: 40px;
+}
+
+.icon {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 19px;
+  gap: 35px;
+}
+
+.icon_new {
+  display: flex;
+  align-items: flex-end;
+  gap: 35px;
+}
+
+.brand {
+  display: flex;
+  height: 764px;
+  background: #f1e4e6;
+}
+
+.brand_name {
+  margin-top: 290px;
+  margin-left: 64px;
+  height: 92px;
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+}
+
+.brand_name h1 {
+  color: #222;
+  font-family: Lato900;
+  font-size: 48px;
+}
+
+.brand_name_flex {
+  display: flex;
+  gap: 8px;
+}
+
+.brand_name h2 {
+  color: #222;
+  font-family: Lato700;
+  font-size: 32px;
+}
+
+.brand_name h3 {
+  color: #f16d7f;
+  font-family: Lato700;
+  font-size: 32px;
+}
+
+.items {
+  display: flex;
+  margin-top: 65px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.item1 {
+  width: 360px;
+  height: 260px;
+  background-image: url(./img/item1.svg);
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 22, 22, 0.7);
+}
+
+.background h4 {
+  color: #fff;
+  text-align: center;
+  font-family: Lato400;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.background h3 {
+  color: #f16d7f;
+  text-align: center;
+  font-family: Lato700;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.item2 {
+  width: 360px;
+  height: 260px;
+  background-image: url(./img/item2.svg);
+}
+
+.item3 {
+  width: 360px;
+  height: 260px;
+  background-image: url(./img/item3.svg);
+}
+
+.item4 {
+  width: 1140px;
+  height: 180px;
+  background-image: url(./img/item4.svg);
+}
+
+.text {
+  margin-top: 95px;
+  text-align: center;
+}
+
+.text h4 {
+  color: #222;
+  font-family: Lato400;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.text p {
+  margin-top: 6px;
+  color: #9f9f9f;
+  font-family: Lato400;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.cards {
+  margin-left: 230px;
+  margin-top: 48px;
+  display: flex;
+  justify-content: flex-start;
+
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 580px;
+  background: #f8f8f8;
+}
+
+.card1_text {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 16px;
+  gap: 16px;
+}
+
+.card1_text h5 {
+  color: #000;
+  font-family: Lato400;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.card1_text p {
+  color: #5d5d5d;
+  font-family: Lato300;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.card1_text h6 {
+  color: #f16d7f;
+  font-family: Lato400;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card2_bg {
+  background: #f7e4e2;
+}
+
+.botton {
+  margin: 48px 690px 95px 690px;
+  padding: 15px 39px;
+  color: #f26376;
+  font-family: Lato400;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid #f16d7f;
+  background: #fff;
+  cursor: pointer;
+}
+
+.bonus {
+  display: flex;
+  background-color: #222224;
+  height: 341px;
+  gap: 30px;
+  justify-content: center;
+}
+
+.bonus h4 {
+  margin-top: 23px;
+  color: #fbfbfb;
+  font-family: Lato400;
+  font-size: 19.96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bonus p {
+  margin-top: 16px;
+  color: #fbfbfb;
+  text-align: center;
+  font-family: Lato300;
+  font-size: 13.972px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 310px;
+}
+
+.bonus__1 {
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bonus__2 {
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bonus__3 {
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe {
+  display: flex;
+  height: 448px;
+  background-image: url(./img/background_subscribe.png);
+}
+
+.background_sub {
+  display: flex;
+  gap: 223px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(244, 244, 244, 0.7);
+}
+
+.latin {
+  margin-left: 230px;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  align-items: center;
+  gap: 30px;
+}
+
+.latin img {
+  margin-top: 97px;
+  width: 96px;
+  height: 96px;
+}
+
+.latin p {
+  color: #222224;
+  text-align: center;
+  font-family: Lato400;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sub {
+  margin-top: 150px;
+  display: flex;
+  width: 557px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub h2 {
+  color: #222224;
+  text-align: center;
+  font-family: Lato700;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 167.2%; /* 40.128px */
+}
+
+.sub h3 {
+  color: #222224;
+  font-family: Lato400;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 167.2%;
+  margin-bottom: 32px;
+}
+
+.sub__button {
+  display: flex;
+}
+
+.sub__button__enter {
+  border-radius: 25px 0 0 25px;
+  border: none;
+  height: 50px;
+  color: #222224;
+  font-family: Lato400;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.671;
+  padding-left: 22px;
+  background-color: #e1e1e1;
+  width: 230px;
+}
+
+.sub__button__enter__but {
+  border-radius: 0 25px 25px 0;
+  border: none;
+  height: 50px;
+  color: #222224;
+  font-family: Lato400;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.671;
+  padding-right: 10px;
+  background-color: #e05c6e;
+  width: 100px;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  padding-left: 235px;
+  padding-right: 230px;
+  justify-content: space-between;
+  display: flex;
+  height: 79px;
+  background-color: #222224;
+  align-items: center;
+}
+
+footer p {
+  color: #fbfbfb;
+  font-family: Lato400;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 8px;
+}
+
+.facebook {
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram {
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pinterest {
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitter {
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) /*задает условие,
+  что при разрешении от 768 до 1024 пикселей делать*/ {
+  .container {
+    max-width: 768px;
+  }
+
+  .logo {
+    padding-left: 32px;
+  }
+
+  .navigation {
+    gap: 424px;
+  }
+
+  .brand {
+    height: 368px;
+  }
+
+  .brand img {
+    width: 386px;
+    height: 368px;
+  }
+  .brand_name {
+    margin-top: 138px;
+    margin-left: 39px;
+  }
+
+  .brand_name h1 {
+    font-size: 44px;
+  }
+
+  .brand_name h2 {
+    font-size: 24px;
+  }
+
+  .brand_name h3 {
+    font-size: 24px;
+  }
+
+  .items {
+    gap: 20px;
+  }
+
+  .item1 {
+    width: 232px;
+    height: 168px;
+    background-size: 232px 168px;
+  }
+
+  .item2 {
+    width: 232px;
+    height: 168px;
+    background-size: 232px 168px;
+  }
+
+  .item3 {
+    width: 232px;
+    height: 168px;
+    background-size: 232px 168px;
+  }
+
+  .item4 {
+    width: 734px;
+    height: 116px;
+    background-size: 734px 116px;
+  }
+
+  .cards {
+    margin-left: 15px;
+    gap: 15px;
+  }
+
+  .botton {
+    margin: 32px 277px 84px 277px;
+    padding: 14px 38px;
+  }
+
+
+.bonus {
+  height: 610px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.subscribe {
+  height: 693px;
+  background-image: url(./img/background_subscribe_planshet.png);
+}
+
+.background_sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(244, 244, 244, 0.7);
+}
+
+
+.latin {
+  margin-left: 0px;
+  display: flex;
+  width: 360px;
+  align-items: center;
+  gap: 30px;
+}
+
+.latin img {
+  margin-top: 64px;
+}
+
+.sub {
+  margin-top: 40px;
+}
+
+footer {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+}
+
+
+
+
+@media (max-width: 767px) and (min-width: 320px) /*задает условие,
+  что при разрешении от 375 до 767 пикселей делать*/ {
+  .container {
+    max-width: 375px;
+  }
+
+  .logo {
+    padding-left: 16px;
+  }
+
+  .navigation {
+    gap: 200px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .brand {
+    height: 363px;
+  }
+
+  .brand_name {
+    margin-top: 148px;
+    margin-left: 56px;
+    height: 65px;
+    padding-left: 15px;
+  }
+
+  .brand_name h1 {
+    font-size: 38px;
+  }
+
+  .brand_name h2 {
+    font-size: 20px;
+  }
+
+  .brand_name h3 {
+    font-size: 20px;
+  }
+
+  .items {
+    gap: 32px;
+  }
+
+  .item1 {
+    width: 343px;
+    height: 248px;
+    background-size: 343px 248px;
+  }
+
+  .item2 {
+    width: 343px;
+    height: 248px;
+    background-size: 343px 248px;
+  }
+
+  .item3 {
+    width: 343px;
+    height: 248px;
+    background-size: 343px 248px;
+  }
+
+  .item4 {
+    width: 343px;
+    height: 111px;
+    background-size: 734px 116px;
+    background-position: center;
+  }
+
+  .text {
+    margin-top: 64px;
+  }
+
+  .cards {
+    margin-top: 65px;
+    margin-left: 8px;
+    gap: 15px;
+  }
+
+  .card1 {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 580px;
+    background: #f8f8f8;
+  }
+
+  .botton {
+    margin: 55px 78px 110px 78px;
+    padding: 13px 35px;
+  }
+
+  .bonus {
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 46px;
+  }
+
+  .bonus p {
+    margin-top: 14px;
+
+  }
+  
+  .subscribe {
+    height: 550px;
+    background-image: url(./img/background_subscribe_planshet.png);
+  }
+
+
+  .background_sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(244, 244, 244, 0.7);
+  }
+
+  
+
+   .latin {
+    margin-left: 0px;
+
+  } 
+   
+  .latin img {
+    margin-top: 64px;
+  }
+  
+  .sub {
+    margin-top: 40px;
+  }
+  
+  footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  
+
+  .latin p {
+    font-size: 18px;
+  }
+
+  .sub h3 {
+    font-size: 14px;
+  }
+
+
+  footer {
+    display: flex;
+    height: 143px;
+    flex-direction: column-reverse;
+   padding-top: 43px;
+   padding-bottom: 9px;
+  }
+
+}
